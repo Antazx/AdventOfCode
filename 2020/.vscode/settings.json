@@ -1,0 +1,4 @@
+{
+    "deno.enable": true,
+    "typescript.tsdk": "/home/ganta/.nvm/versions/node/v14.15.1/lib/node_modules/typescript/lib"
+}

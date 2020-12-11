@@ -1,5 +1,3 @@
-import {getInput} from '../readInput';
-
 interface Position {
   line: number;
   column: number;
@@ -75,5 +73,8 @@ for(let index = 0; index < movements.length; index++) {
     treesList.push(trees ? trees.length : 0);
 }
 
-console.log(treesList.reduce((acc, value) => acc * value));
+console.log(`First problem solution: ${treesList[1]}`);
+console.log(
+  `Second problem solution: ${treesList.reduce((acc, value) => acc * value)}`
+);
 export {};
